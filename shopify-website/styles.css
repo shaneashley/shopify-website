@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    height: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /* width: 100%; */
+    margin: auto;
+    color: #000;
+    /* justify-content: center; */
+    max-width: 1500px;
+    flex-direction: row;
+    justify-content: space-around;
+width: 100%;
+    margin: auto;
+   
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+nav > ul{
+    display: flex;
+    flex-direction: row;
+}
+
+
+nav > ul > li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 5px;
+    margin-left: 25px;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+nav > ul > li > a {
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+nav > h2 {
+    font-size: 2.5rem!important;
+}
+
+nav  a:hover {
+    color: rgb(149, 147, 147);
+}
+
+header { color: #fff;}
+
+header > div {
+    background-color:#000;
+}
+.pad-top-bot {
+    padding-top: 3%;
+    padding-bottom: 2%;
+} 
+
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1500px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.hero > section {
+    width: 40%;
+    padding: 5%;
+}
+
+.left-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4%;
+}
+
+.left-cont p {
+margin: 5% 0 5% 0;
+}
+
+.right-cont > img {
+    margin-top: -10%;
+    /* height: 500px; */
+    width: 90%;
+    border-radius: 25px;
+    margin-left: 10%;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+button {
+    width:fit-content !important;
+   padding: 15px;
+    height: 50px;
+    font-size: 1.1rem;
+    margin:5px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000; 
+}
+button a:hover {
+    color: #000; 
+    background-color: #fff;
+}
+
+p {
+    line-height: 25px;
+    font-size: 1.2rem;
+}
+
+.services, .card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1500px;
+    margin: auto;
+  
+
+}
+
+ .card-section > h2 {
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.services > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container > section {
+    width: 40%;
+    padding: 4%;
+}
+
+.container > section > ul {
+    width: 40%;
+    padding: 2% 4%;
+}
+
+.services-text {
+    align-items: center;
+    margin: 6%;
+}
+
+.services-img {
+    margin-left: 5px;
+}
+
+.services ul {
+    margin-left: 15px;
+}
+.right-container > img {
+    width: 500px;
+}
+
+.card-section > p {
+    text-align: center;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards > section {
+    width: 400px;
+   border: 2px solid #000;
+    margin: 10px;
+    text-align: center;
+    padding: 5% 2%;
+    background-color: rgba(155, 154, 153, 0.325);
+}
+
+.cards > section > img {
+    width: 300px;
+    margin: 5px;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.benefits > h2 {
+    margin: 25px;
+}
+.benefit-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: center;
+}
+
+.benefit-details > section {
+    /* border: 2px solid #000; */
+    margin: 2px;
+    height: 300px;
+    width: 300px;
+    padding-top: 50px;
+   text-align: center;
+ }
+
+.benefit-details > section > h4 {
+    font-size: 20px!important;
+    margin: 5px;
+}
+
+.benefit-details > section > img {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+}
+
+.project-ideas {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.project-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: center;
+}
+
+.project-cards > section {
+    border: 2px solid #000;
+    margin: 10px;
+    height: 80px;
+    width: 300px;
+    padding: 15px;
+    font-size: 20px;
+
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.pricing-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: center;
+}
+
+.pricing-cards > section {
+    border: 2px solid #000;
+    margin: 10px;
+    height: 600px;
+    width: 400px;
+    padding: 5% 3%;
+}
+
+
+.pricing-cards > section > h4 {
+    margin-top: 10%;
+}
+
+footer {
+   
+    color: #fff;
+    /* padding: 2%; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+/* width: 100%;
+    margin: auto; */
+
+
+    /* max-width: 1500px;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto; */
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: space-around;
+    width: 100%;
+ padding: 2% 5%;
+}
+
+.footer-div {
+    background-color: #000;
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: row;
+}
+.right-footer > ul {
+    margin: 10%;
+}
+
+/* .left-footer {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+} */
+
+
+@media screen and (max-width: 600px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero > section {
+        width: fit-content;
+        align-items: center;
+        text-align: center;
+      
+    }
+    .right-cont {
+        margin: auto;
+    }
+
+    /* .right-cont >img {
+        width: 400px;
+        width: 100%;
+    } */
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .hero-img img {
+        width: 100px;
+    }
+
+    .services > .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .services > .container > section 
+    {
+        width: fit-content;
+    }
+
+    .services h2 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .container > section > .cont-img {
+        width: 100%;
+    }
+
+    .benefits {
+        text-align: center;
+    }
+
+
+}
